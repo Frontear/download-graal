@@ -16,8 +16,8 @@ while ($true) {
         break
     }
     elseif ($Response -eq "b") {
-        $GraalUrl = "https://download.oracle.com/graalvm/22/latest/graalvm-jdk-22_windows-x64_bin.zip"
-        $FileGlob = "graalvm-jdk-22"
+        $GraalUrl = "https://download.oracle.com/graalvm/22/latest/graalvm-jdk-21_windows-x64_bin.zip"
+        $FileGlob = "graalvm-jdk-21"
         break
     }
     else {
